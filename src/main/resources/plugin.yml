@@ -1,0 +1,30 @@
+name: GamblingPlugin
+main: com.yourplugin.GamblingPlugin
+version: 1.0.0
+description: A gambling plugin for Minecraft that allows players to place bets and spin for a chance to win.
+author: YourName
+api-version: 1.16
+
+commands:
+  kumarac:
+    description: Start the gambling event
+    usage: /kumarac
+    permission: gambling.admin
+  kumarkapa:
+    description: Stop the gambling event
+    usage: /kumarkapa
+    permission: gambling.admin
+  kumar:
+    description: Open the main gambling menu
+    usage: /kumar
+  kumaroyna:
+    description: Open the betting menu
+    usage: /kumaroyna
+
+permissions:
+  gambling.admin:
+    description: Allows the player to start and stop the gambling event
+    default: op
+  gambling.use:
+    description: Allows the player to use the gambling commands
+    default: true

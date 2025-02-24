@@ -1,0 +1,32 @@
+# Plugin configuration file for GamblingPlugin
+
+# List of items that are banned from being used in bets
+banned_items:
+  - DIAMOND_SWORD
+  - NETHER_STAR
+  - TOTEM_OF_UNDYING
+
+# Messages displayed to players
+messages:
+  event_started: "&aKumar etkinliği başladı! Şansınızı deneyin!"
+  event_stopped: "&cKumar etkinliği sona erdi. Katıldığınız için teşekkürler!"
+  event_closed: "&cŞu anda kumar etkinliği kapalı."
+  bet_confirmed: "&aBahis onaylandı! Spin başlıyor..."
+  win: "&aTebrikler, kazandınız!"
+  lose: "&cÜzgünüz, kaybettiniz."
+
+# GUI titles
+gui_titles:
+  main: "Kumar Menüsü"
+  spin: "Spin"
+  bet: "Bahis Yap"
+  win_options: "Kazandınız! Seçenekler"
+  banned_items: "Yasaklı Eşyalar"
+  wins: "Kazançlar"
+  losses: "Kayıplar"
+  help: "Yardım"
+
+# Spin configuration
+spin:
+  duration_ticks: 200  # Spin animation duration in ticks (10 seconds)
+  win_chance_percent: 35  # Chance to win in percentage
